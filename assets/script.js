@@ -98,15 +98,16 @@ var generatePassword = function () {
     userPassword = upper.concat(numbers, lowerCaseLetter);
   };
   
-
+  //Create a loop to pick random characters upon whatever the user selected from the criteria and the length.
   for (var i = 0; i < userInput; i++ ) {
     
     var options = userPassword[Math.floor(Math.random() * userPassword.length)];
-    passwordEmpty.push(options);
+    passwordEmpty.push(options); //push options into the var passwordEmpty array.
   }
-
-  var password = passwordEmpty.join('');
-  return password;
+ 
+  //The join method concatenates the passwordEmpty array to a string.
+  var password = passwordEmpty.join(''); //Using "" that the random picked character types are... 
+  return password;                       //...not seperated by a "," and all characters build a string with the length defined by the userInput.
 }
 
 // Write password to the #password input
