@@ -108,6 +108,17 @@ var generatePassword = function () {
   //The join method concatenates the passwordEmpty array to a string.
   var password = passwordEmpty.join(''); //Using "" that the random picked character types are... 
   return password;                       //...not seperated by a "," and all characters build a string with the length defined by the userInput.
+
+  //If the user already created a password before without this function if you create another password
+  //it will just add password behind password behind password....
+
+  //This var and function restarts the whole cycle of the writePassword function.
+  var tryAgain;
+
+  if (tryAgain) {
+    writePassword();
+  }
+
 }
 
 // Write password to the #password input
