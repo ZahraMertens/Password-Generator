@@ -51,6 +51,6 @@ The portfolio is ment to demonstarte our skills and talents of HTML and CSS to e
 
 The following GIF shows the web applications apperance and functionality:
 
-![password-generator-demo](./Assets/images/password-generator.gif)
+![password-generator-demo](./assets/images/password-generator.gif)
 
 ## Credits
