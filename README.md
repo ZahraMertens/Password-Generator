@@ -3,7 +3,7 @@
 ```
 The deployed Webpage is a password generator and the application displays an example how to use Java Script and its functionality. The generator allows the user to click on a button and will be asked if they want the password to include certain criteria which determines the password. 
 
-The application is deployed to GitHub Pages. Please click here to go to the deployed webpage: [Click]()
+The application is deployed to GitHub Pages. Please click here to go to the deployed webpage: [Click](https://zahramertens.github.io/Password-Generator/)
 ```
 
 ## Table if Contents
