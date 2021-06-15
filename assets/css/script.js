@@ -24,6 +24,7 @@ var generatePassword = function () {
   //If user clicks "cancel" the browser will tell them that the password length needs to be defined.
   if (!userInput) {
     alert("The password length needs to be defined!");
+    return;
   
     //If the number is below 8 or above 128, the browser will ask again for a user input between 8 and 128.
   } else if ( userInput < 8 || userInput > 128) {

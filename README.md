@@ -1,10 +1,11 @@
 ## General Information
 
-```
+
 The deployed Webpage is a password generator and the application displays an example how to use Java Script and its functionality. The generator allows the user to click on a button and will be asked if they want the password to include certain criteria which determines the password. 
 
-The application is deployed to GitHub Pages. Please click here to go to the deployed webpage: [Click](https://zahramertens.github.io/Password-Generator/)
-```
+The application is deployed to GitHub Pages. Please click here to go to the deployed webpage: 
+
+[Click](https://zahramertens.github.io/Password-Generator/)
 
 ## Table if Contents
 1. [General Information](#general-informaion)
@@ -17,40 +18,33 @@ The application is deployed to GitHub Pages. Please click here to go to the depl
 
 ## Task Describtion
 
-The task was to create a web application from scratch. The webpage is a portfolio which we can add to as the course progresses.
+The task/homework was to update a given Java Script file to give the page functionaliy. There was a starter code to create an application that enables employees to generate random passwords based on criteria that we have selected. As an employer with access to secure data I want to be able to create randomly created passwords that meet certain criteria to provide greater security.
 
-The portfolio is ment to demonstarte our skills and talents of HTML and CSS to employers that might want to hire someone, with a focus on flexbox, media queries and CSS variables. The portfolio demonstrates the highlights of our work and the process behind it to maximize the chances to find a job. The portfolio is ment to align with certain criteria, mentioned below.
-
-**Note:** As I have only created one webpage so far, this is the only one that is linked and the other containers are filled with placeholder images.
+**Note:** This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code.
 
 ## Actual Behaviour
 
 ```
-* You are presented with my name, a recent photo, and links to sections about me, my work, and how to contact me.
+* When the user clicks on the button to generate a password the browser will present a series of prompts with criterias that can/must be selected.
 
-* When you click on the links in the navigation bar, the UI scrolls to the corresponding section.
+* The first promt will ask the user of the preffered password length (Between 8-128) and the user needs to enter a number and press "OK"
 
-* The my-work section includes images of my applications (atm placeholder images) which are titled.
+* If the user presses "Cancel" the app will tell the user that the password length needs to be defined.
 
-* The first image of the application is larger than the other ones and they all have hover functions.
+* If the user enters a number lower than 8 and above 128 the app tells the user that the length must be between 8 and 128.
 
-* When you click on the first/larger image it will take you to the first projects deployed webpage.
+* If the number entered us valid, the browser will ask if the user wants the password to include lower case letters, upper case letters, numbers and/or special characters. If all criteria selected correct, than the password will appear in the text box and be exactly how the user wants it to be.
 
-* The layout is responsive and adapts to different viewports, such as smartphones and Ipads.
+* If the user does not select any of the criteria the browser will tell the user that at least one criteria must be selected.
 ```
 
-## 🏆 Bonus
-```
+## The Java Script Features used
 
-* When you click on the Resume PDF element in the navigation bar, you will download my resume.
-
-* When you click on the GitHub or LinkedIn element in the footer, it will lead you too my profile on both social media websites.
-```
 
 ## Mock-Up
 
 The following GIF shows the web applications apperance and functionality:
 
-![password-generator-demo](./assets/images/password-generator.gif)
+![password-generator-demo](./assets/images/password-g.gif)
 
 ## Credits
