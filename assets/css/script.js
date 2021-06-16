@@ -1,6 +1,16 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
+// Add event listener to generate button
+generateBtn.addEventListener("click", writePassword);
+
+// Write password to the #password input
+function writePassword() {
+  var password = generatePassword();
+  var passwordText = document.querySelector("#password");
+
+  passwordText.value = password;
+}
 
 //Asign values to global variable which will be pushed to the password.
 var lowerCaseLetter = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
@@ -29,7 +39,8 @@ var generatePassword = function () {
     //If the number is below 8 or above 128, the browser will ask again for a user input between 8 and 128.
   } else if ( userInput < 8 || userInput > 128) {
     
-    var userInput = prompt("The password length must be between 8 and 128 characters!");
+    alert("The password length must be between 8 and 128 characters!");
+    return;
 
     //If the user enters a number between 8 and 128 the browser will ask what characters the user want the password to contain.
   } else {
@@ -122,13 +133,23 @@ var generatePassword = function () {
 
 }
 
-// Write password to the #password input
-function writePassword() {
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
 
-  passwordText.value = password;
+//Extra: Created a new button to copy the password, so when click on the button
+// the created password will be copied and a alert will pop up with the copied password.
+var copyPassword = document.querySelector("#copy")
+
+copyPassword.addEventListener("click", copyText);
+
+function copyText () {
+
+   
+  var selectText = document.getElementById("password");
+
+  selectText.select();
+  selectText.setSelectionRange(0, 128);
+
+  document.execCommand("copy");
+
+  var returnAlert = alert("Copied the Password: " + selectText.value);
+  return returnAlert;
 }
-
-// Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);

@@ -5,12 +5,12 @@ The deployed Webpage is a password generator and the application displays an exa
 
 The application is deployed to GitHub Pages. Please click here to go to the deployed webpage: 
 
-[Click](https://zahramertens.github.io/Password-Generator/)
+[Password-Generator](https://zahramertens.github.io/Password-Generator/)
 
 ## Table if Contents
 1. [General Information](#general-informaion)
 2. [Task Description](#task-description)
-3. [Changes that have been made](#changes-that-have-been-made)
+3. [Actual Behaviour](#actual-behaviour)
 4. [Mock-Up](#mock-up)
 5. [Bonus](#bonus)
 6. [Credits](#credits)
@@ -22,9 +22,9 @@ The task/homework was to update a given Java Script file to give the page functi
 
 **Note:** This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code.
 
+
 ## Actual Behaviour
 
-```
 * When the user clicks on the button to generate a password the browser will present a series of prompts with criterias that can/must be selected.
 
 * The first promt will ask the user of the preffered password length (Between 8-128) and the user needs to enter a number and press "OK"
@@ -36,10 +36,10 @@ The task/homework was to update a given Java Script file to give the page functi
 * If the number entered us valid, the browser will ask if the user wants the password to include lower case letters, upper case letters, numbers and/or special characters. If all criteria selected correct, than the password will appear in the text box and be exactly how the user wants it to be.
 
 * If the user does not select any of the criteria the browser will tell the user that at least one criteria must be selected.
-```
 
-## The Java Script Features used
+## 🏆 Bonus
 
+* There us a new button that allows the user to copy the created password. If the user creates a password the text will be displayed in the input field and if the button is clicked the text will be copied and an alert will confirm the copied text.
 
 ## Mock-Up
 
