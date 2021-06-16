@@ -11,7 +11,7 @@ The application is deployed to GitHub Pages. Please click here to go to the depl
 1. [General Information](#general-informaion)
 2. [Task Description](#task-description)
 3. [Actual Behaviour](#actual-behaviour)
-4. [Bonus](#bonus)
+4. [Bonus](#🏆-bonus)
 5. [Mock-Up](#mock-up)
 6. [Credits](#credits)
 
