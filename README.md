@@ -11,8 +11,8 @@ The application is deployed to GitHub Pages. Please click here to go to the depl
 1. [General Information](#general-informaion)
 2. [Task Description](#task-description)
 3. [Actual Behaviour](#actual-behaviour)
-4. [Mock-Up](#mock-up)
-5. [Bonus](#bonus)
+4. [Bonus](#bonus)
+5. [Mock-Up](#mock-up)
 6. [Credits](#credits)
 
 
@@ -48,3 +48,8 @@ The following GIF shows the web applications apperance and functionality:
 ![password-generator-demo](./assets/images/password-g.gif)
 
 ## Credits
+
+https://www.w3schools.com/
+https://www.w3schools.com/jsref/jsref_push.asp
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join
+https://stackoverflow.com/questions/1349404/generate-random-string-characters-in-javascript
